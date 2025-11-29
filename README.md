@@ -9,8 +9,7 @@ The player competes against the computer, which uses the **Minimax algorithm** t
 - Player vs Computer (AI) mode  
 - Computer uses the **Minimax algorithm** for perfect play  
 - Console-based interface  
-- Input validation  
-- Clear board display after every move  
+- Input validation 
 - Automatic win / loss / draw detection  
 
 ---
