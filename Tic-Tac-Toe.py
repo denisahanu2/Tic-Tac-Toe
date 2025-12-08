@@ -131,7 +131,7 @@ def main():
             player_move(board, player_symbol)
         else:
             print(f"AI ({ai_symbol}) is thinking...")
-            move = best_ai_move(player_symbol, ai_symbol)
+            move = best_ai_move(board, player_symbol, ai_symbol)
             if move:
                 i, j = move
                 board[i][j] = ai_symbol
@@ -157,4 +157,5 @@ def main():
             current_turn = "player"
 
 if __name__ == "__main__":
+
     main()
